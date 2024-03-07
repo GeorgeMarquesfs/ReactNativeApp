@@ -1,18 +1,14 @@
-import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Exercicio03 />
-    </View>
-  );
+import React from 'react'
+import Exercicio05 from './src/components/Exercicio05';
+import Exercicio06 from './src/components/Exercicio06';
+
+const App = () => {
+   return (
+      <Exercicio06/>
+   )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App
+
+

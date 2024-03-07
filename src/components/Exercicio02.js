@@ -19,4 +19,5 @@ const Exercicio02 = () => {
     )   
 }
 
+
 export default Exercicio02
