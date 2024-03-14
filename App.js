@@ -1,14 +1,24 @@
 
-import React from 'react'
-import Exercicio05 from './src/components/Exercicio05';
-import Exercicio06 from './src/components/Exercicio06';
+import { StyleSheet } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import AppNavigator from './src/navigation/AppNavigator';
 
-const App = () => {
-   return (
-      <Exercicio06/>
-   )
+
+export default function App() {
+  return (
+      <NavigationContainer>
+         <AppNavigator />
+      </NavigationContainer>
+  );
 }
 
-export default App
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
 
 
